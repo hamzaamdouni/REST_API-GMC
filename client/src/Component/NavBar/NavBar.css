@@ -1,0 +1,50 @@
+.Box{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    background-color: rgb(2, 99, 155);
+    color: white;
+    font-size: 18px;
+    
+}
+.Box div{
+    margin: 10px 0px;
+}
+
+.Menu{
+    display: flex;
+    width: auto;
+}
+
+.Menu button{
+    background-color: rgb(2, 99, 155);
+    border: none;
+    padding: 5px 15px;
+    margin: 0px 5px;
+    border-radius: 12px;
+}
+
+.Menu button:hover{
+    background-color: rgb(57, 142, 253);
+    border: none;
+}
+
+.Login button{
+    background-color: rgba(212, 180, 0, 0.719);
+    border: none;
+    padding: 5px 15px;
+    margin: 0px 5px;
+    border-radius: 12px;
+}
+
+.Login button:hover{
+    background-color: rgb(57, 142, 253);
+    border: none;
+}
+
+.Linkto {
+    text-decoration: none;
+    color :white;
+    font-size: 16px;
+}
